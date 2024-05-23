@@ -1,0 +1,21 @@
+{
+	"name": "telegrafjs",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"config": "^3.3.11",
+		"dotenv": "^16.4.5",
+		"mongoose": "^8.2.0",
+		"telegraf": "^4.16.1"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.0"
+	}
+}
